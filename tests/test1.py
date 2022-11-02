@@ -6,10 +6,10 @@ class TestCalc:
     def setup(self):
         self.calc = Calculator()
 
-    def test_adding_succes(self):
+    def test_adding_success(self):
         assert self.calc.adding(1, 1) == 2
 
-    def test_test_adding_unsucces(self):
+    def test_test_adding_unsuccess(self):
         assert self.calc.adding(1, 1) == 3
 
     def test_zero_division(self):
